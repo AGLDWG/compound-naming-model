@@ -1,0 +1,40 @@
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX fl: <https://linked.data.gov.au/def/fl/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sdo: <https://schema.org/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/def/fl>
+    a owl:Ontology ;
+    dcterms:provenance """This ontology was made for the Queensland Department of Resources, Spatial Information unit in 2023 to assist with future Address, Place Names, Roads & Cadastre systems design however it is intended to provide background modelling for all ANZ jurisdictions' foundational spatial data.
+
+This model has been made with the FSDF Supermodel in mind (https://linked.data.gov.au/def/fsdf-supermodel) so that is compatible with that, and the Locaiton Index (Loc-I) projects' modelling and goals."""@en ;
+    owl:versionIRI fl:0.0.1 ;
+    owl:versionInfo "0.0.1" ;
+    sdo:codeRepository "https://github.com/AGLDWG/feature-labelling-model/"^^xsd:anyURI ;
+    sdo:copyrightHolder <https://orcid.org/0000-0002-8742-7730> ;
+    sdo:copyrightNotice "(c) Nicholas J. Car, 2023" ;
+    sdo:creator <https://orcid.org/0000-0002-8742-7730> ;
+    sdo:dateCreated "2023-04-26"^^xsd:date ;
+    sdo:dateIssued "2023-04-26"^^xsd:date ;
+    sdo:dateModified "2022-04-26"^^xsd:date ;
+    sdo:description "This model allows for complex labels may be assigned to geospatial features"@en ;
+    sdo:license
+        "https://creativecommons.org/licenses/by/4.0/"^^xsd:anyURI ,
+        <https://rdflicense.linkeddata.es/rdflicense/cc-by4.0> ;
+    sdo:name "Feature Labelling Model"@en ;
+    sdo:publisher <https://www.linked.data.gov.au/org/agldwg> ;
+.
+
+<https://linked.data.gov.au/org/agldwg>
+    a sdo:Organization ;
+    sdo:name "Australian Government Linked Data Working Group" ;
+    sdo:url "https://www.linked.data.gov.au"^^xsd:anyURI ;
+.
+
+<https://orcid.org/0000-0002-8742-7730>
+    a sdo:Person ;
+    sdo:email "nick@kurrawong.ai"^^xsd:anyURI ;
+    sdo:memberOf <https://www.linked.data.gov.au/org/agldwg> ;
+    sdo:name "Nicholas J. Car"@en ;
+.
