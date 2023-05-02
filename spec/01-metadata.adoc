@@ -1,0 +1,20 @@
+== Metadata
+
+[width=75%, frame=none, grid=none, cols="1,5"]
+|===
+|**IRI** | `https://linked.data.gov.au/def/fl`
+|**Preferred Label** | Roads Model
+|**Definition** | A Semantic Web data model for complex labels that may be assigned to geospatial features.
+| **Date Created** | 2023-04-26
+| **Date Modified** | 2023-05-03
+| **Date Issued** | 2023-04-26
+|**Creator** | https://orcid.org/0000-0002-8742-7730[Nicholas J. Car]
+|**Publisher** | https://linked.data.gov.au/org/agldwg[Australian Government Linked Data Working Group]
+|**Provenance** | This model was made for Queensland Spatial Information, a unit of the Queensland Department of Resources, to assist with their future address and roads database design however, recognising the generic nature of this modelling, it was presented to the AGLDWG to be supplied as a "background model" for general use.
+|**Status** | Beta version
+|**Version** | `fl:0.0.1`
+|**Code Repository** | https://github.com/AGLDWG/feature-labelling-model
+|**License** | https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International (CC BY 4.0)]
+|**Copyright** | &copy; Australian Government Linked Data Working Group, 2023
+|**Machine-readable form (RDF)** | https://linked.data.gov.au/def/fl.ttl
+|===

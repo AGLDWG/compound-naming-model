@@ -14,11 +14,13 @@ The purpose of this model is to act as an "upper" or background model for specia
 | Creator | https://orcid.org/0000-0002-8742-7730[Nicholas J. Car]
 | Publisher | https://linked.data.gov.au/org/agldwg[Australian Government Linked Data Working Group]
 | Date Created | 2023-04-26
-| Date Modified | 2023-04-26
+| Date Modified | 2023-05-03
 | Date Issued | 2023-04-26
 | License | https://creativecommons.org/licenses/by/4.0/[Creative Commons BY 4.0]
 |===
 
 == Status
 
-This model has been created as a stub in April, 2023, and is expected to be completed in May, 2023. It is to be in use within the Queensland Address, Roads, Cadastre and the national Place Names Models by July, 2023.
+As of May, 2023, this model is in early version release
+
+It is to be in use within the Queensland Address, Roads, Cadastre and the national Place Names Models by July, 2023.
