@@ -1,5 +1,9 @@
 = Feature Labelling Model
 
+[[fig-overview]]
+.An informal Model Overview diagram showing the major elements of this model
+image::img/model.png[]
+
 This model allows for complex labels may be assigned to geospatial features.
 
 The purpose of this model is to act as an "upper" or background model for specialised feature labelling models, such as models for addresses, roads, administrative areas/boundaries, place names etc.

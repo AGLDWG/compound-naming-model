@@ -1,12 +1,16 @@
 == Model
 
+[[fig-overview2]]
+.An informal Model Overview diagram showing the major elements of this model
+image::img/model.png[]
+
 This model is composed of Web Ontology Language (OWL) <<OWL>> Classes and Properties. While some of the properties are restricted in their use to various classes, the Classes and Properties are actually defined individually and both are "first class model citizens", with golbal identity, that can be used in isolation as well as together. This is in contrast to Unified Modelling Language (UML) _Class Diagrams_ which treat Properties as sub-parts of particular classes.
 
 This model defines some Classes and Properties and also requires certain existing Cs & Ps for reuse. All Cs & Ps in this model, both defined and reused, are listed here with an indication of where the element is difined given in the _Is Defined By_ field.
 
-[[fig-overview]]
-.An informal Model Overview diagram showing the major elements of this model
-image::img/overview.png[]
+[[fig-classes]]
+.Subclases of `Feature Label` and their corresponding `Feature` subclasses, as used by Queensland Government, in 2023
+image::img/subclasses.png[]
 
 [[fig-upper-classes]]
 .Mapping of the main model classes to common Semantic Web classes

@@ -9,6 +9,10 @@
 
 ==== _A Semantic Web data model for complex labels that may be assigned to geospatial features._
 
+[[fig-overview]]
+.An informal Model Overview diagram showing the major elements of this model
+image::img/model.png[]
+
 :sectnums:
 
 include::01-metadata.adoc[]
