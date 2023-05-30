@@ -12,17 +12,16 @@ This model is built on a small set of well-regarded Semantic Web models which us
 |===
 |Prefix | Namespace | Description
 
-| `*fl*` | `*https://linked.data.gov.au/def/fl/*` | *Namespace for this model*
-| `flct` | `https://linked.data.gov.au/def/roads/ct` | Roads Component Type vocabulary namespace
-| `dcterms` | `http://purl.org/dc/terms/` | Dublin Core Terms namespace
-| `ex` | `http://example.com/` | Generic examples namespace
-| `geo` | `http://www.opengis.net/ont/geosparql#` | OGC GeoSPARQL model namespace
-| `owl` | `http://www.w3.org/2002/07/owl#` | Web Ontology Language ontology namespace
-| `rdfs` | `http://www.w3.org/2000/01/rdf-schema#` | RDF Schema ontology namespace
-| `sosa` | `http://www.w3.org/ns/sosa/` | Sensor, Observation, Sample, and Actuator ontology namespace
-| `skos` | `http://www.w3.org/2004/02/skos/core#` | Simple Knowledge Organization System (SKOS) ontology namespace
-| `time` | `http://www.w3.org/2006/time#` | Time Ontology in OWL namespace
-| `xsd` | `http://www.w3.org/2001/XMLSchema#` | XML Schema Definitions ontology namespace
+| `:` | `*https://linked.data.gov.au/def/cn/*` | *Namespace for this model*
+| `ex` | `http://example.com/` | Generic examples
+| `geo` | `http://www.opengis.net/ont/geosparql#` | OGC GeoSPARQL model
+| `owl` | `http://www.w3.org/2002/07/owl#` | Web Ontology Language ontology
+| `rdfs` | `http://www.w3.org/2000/01/rdf-schema#` | RDF Schema ontology
+| `sdo` | `https://schema.org/` | schema.org vocabulary
+| `sosa` | `http://www.w3.org/ns/sosa/` | Sensor, Observation, Sample, and Actuator ontology
+| `skos` | `http://www.w3.org/2004/02/skos/core#` | Simple Knowledge Organization System (SKOS) ontology
+| `time` | `http://www.w3.org/2006/time#` | Time Ontology in OWL
+| `xsd` | `http://www.w3.org/2001/XMLSchema#` | XML Schema Definitions ontology
 |===
 
 === Conformance
@@ -31,11 +30,21 @@ This model conforms to the https://w3id.org/profile/ontpub[OntPub Profile] which
 
 ==== Figures
 
-Figures used in this document use the following key:
-
-[[fig-figure-key]]
-.Key of elements used in this Model's figures
-image::img/key.png[]
+Figures used in this document all use the key given in <<fig-overview, Figure 1>>.
 
 ==== Example Data
 Example Data used in this document, for instance in model element "Example" values, are https://www.w3.org/RDF/[RDF] data in the https://www.w3.org/TR/turtle/[Turtle] syntax.
+
+=== Model resources
+
+This document is this model's "Specification" which is its authoritative, human-readable, definition document. This model also contains other resources with other roles:
+
+[width="75%", cols="2,1,4"]
+|===
+| Resource | Role | Notes
+
+| https://linked.data.gov.au/def/cn.ttl[This document] | _Specification_ | The normative description of this model
+| https://linked.data.gov.au/def/cn[Model in RDF] | _Schema_ | The technical, machine-readable, version of this model in <<RDF>>.
+| https://linked.data.gov.au/def/cn/validator.ttl[Validator] | _Validation_ | The machine-readable validator file used to validate data claiming conformance to this model, as per the description of validation in Section <<Validation>>.
+| https://linked.data.gov.au/def/cn/examples[Directory of Examples] | _Examples_ | Examples, as presented in <<Examples>> in <<RDF>> code files.
+|===

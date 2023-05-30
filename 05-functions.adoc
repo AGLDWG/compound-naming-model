@@ -1,0 +1,19 @@
+== Functions
+
+Use of this model in which `CompoundName` instances contain other `CompoundName` instances as parts requires the implementation of a function to create a literal form of those contained `CompoundName` instances. This is described further in the section <<Compound Names can contain other Compound Names>>.
+
+This function MUST be called `getName` and must have the following function signature:
+
+----
+function getName(CompoundName, template (Optional)) -> Literal
+----
+
+In words:
+
+* the function `getName` must accept a Compound Name Object or object reference and optionally a template or template reference as input parameters
+** if no template is supplied, a default template for the given class of CompoundName must be used.
+* the function returns a literal representation of the CompoundName object
+
+=== Function Example
+
+The `ex:moreton` is an instance of a `GeographicalName` which is a specialised form of `CompoundName`. It consists of the parts shown in the example for <<CompoundName>>.

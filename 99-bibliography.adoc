@@ -2,7 +2,7 @@
 
 * [[CONNEGP]] [CONNEGP] World Wide Web Consortium, _Content Negotiation by Profile_, W3C Working Draft (20 March 2022). https://w3c.github.io/dx-connegp/connegp/
 
-* [[FLM]] [FLM] The State of Queensland (Department of Resources). _Feature Labelling Model_. Semantic Web data model (2023). https://linked.data.gov.au/def/flm
+* [[FLM]] [FLM] The State of Queensland (Department of Resources). _Compound Naming Model_. Semantic Web data model (2023). https://linked.data.gov.au/def/flm
 
 * [[GEO]] [GEO] Open Geospatial Consortium, _OGC GeoSPARQL - A Geographic Query Language for RDF Data, Version 1.1_ (2021). OGC Implementation Specification. http://www.opengis.net/doc/IS/geosparql/1.1
 

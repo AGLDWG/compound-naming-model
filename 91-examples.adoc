@@ -1,0 +1,6 @@
+== Examples
+
+
+[[fig-subclasses]]
+.Example subclasses of `Resource` and corresponding `Compound Names`
+image::img/subclasses.svg[]
