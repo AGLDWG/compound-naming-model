@@ -7,7 +7,7 @@
 
 :sectnums!:
 
-==== _A Semantic Web data model for complex labels that may be assigned to geospatial features._
+==== _A Semantic Web data model for compound names that may be assigned to resources._
 
 [[fig-overview]]
 .An overview of the major elements of this model

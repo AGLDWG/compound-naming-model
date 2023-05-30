@@ -22,7 +22,7 @@ This model is composed of Web Ontology Language (OWL) <<OWL>> Classes and Proper
 | Preferred Label | Compound Name
 | Definition | A Compound Name is a literal value, or objects that can be interpreted as literal values, that describe or name a Feature
 | Is Defined By | This model
-| Expected Properties | <<isLabelFor>>, <<hasPart>>
+| Expected Properties | <<isNameFor>>, <<hasPart>>
 | Example 
 a| [source,turtle]
 ----
@@ -92,7 +92,7 @@ ex:moreton
 |===
 
 [[Resource]]
-====
+==== Resource
 
 [cols="2,6"]
 |===
@@ -107,7 +107,7 @@ ex:moreton
 |===
 
 [[Literal]]
-====
+==== Literal
 
 [cols="2,6"]
 |===
@@ -122,7 +122,7 @@ ex:moreton
 |===
 
 [[Concept]]
-====
+==== Concept
 
 [cols="2,6"]
 |===

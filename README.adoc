@@ -4,7 +4,7 @@
 .An overview diagram showing the major elements of this model
 image::img/overview.svg[]
 
-This model allows for complex labels may be assigned to geospatial features.
+This model allows for compound names may be assigned to resources.
 
 The purpose of this model is to act as an "upper" or background model for specialised compound naming models, such as models for addresses, roads, administrative areas/boundaries, place names etc.
 
@@ -14,7 +14,7 @@ The purpose of this model is to act as an "upper" or background model for specia
 | Property | Value
 | IRI | *https://linked.data.gov.au/def/fl*
 | Name | Compound Naming Model
-| Description | This model allows for complex labels may be assigned to geospatial features
+| Description | This model allows for compound names may be assigned to resources
 | Creator | https://orcid.org/0000-0002-8742-7730[Nicholas J. Car]
 | Publisher | https://linked.data.gov.au/org/agldwg[Australian Government Linked Data Working Group]
 | Date Created | 2023-04-26

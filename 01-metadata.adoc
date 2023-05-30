@@ -4,7 +4,7 @@
 |===
 |**IRI** | `https://linked.data.gov.au/def/cn`
 |**Preferred Label** | Compound Naming Model
-|**Definition** | A Semantic Web data model for complex labels that may be assigned to geospatial features.
+|**Definition** | A Semantic Web data model for compound names that may be assigned to resources.
 | **Date Created** | 2023-04-26
 | **Date Modified** | 2023-05-31
 | **Date Issued** | 2023-04-26

@@ -4,10 +4,12 @@ This model allows for the representation of compound names that can be assigned 
 
 One example of a compound name is a geographical name - Moreton Island - and another is a street address:
 
-72 Yundah Street +
-Shorncliffe +
-Queensland 4017 +
-Australia +
+----
+72 Yundah Street
+Shorncliffe
+Queensland 4017
+Australia
+----
 
 The first may be assigned to a mountain, the second a dwelling.
 
@@ -52,10 +54,12 @@ For geographical name Moreton Island again, we may type the "Moreton" part as a 
 
 Where `Resource` instances have names that have relations to other `Resource` instances with names, `CompoundName` instances might need to be built by compounding other `CompoundName` instances. For example, the `Address`
 
-72 Yundah Street +
-Shorncliffe +
-Queensland 4017 +
-Australia +
+----
+72 Yundah Street
+Shorncliffe
+Queensland 4017
+Australia
+----
 
 includes a road number - "1" - and a road name - "Yundah Street" - as well as a locality name - "Shorncliffe" and other things. "Yundah Street" could easily be a `CompoundName` for a `Road` object and "Shorncliffe" a (simple) compound name for a `Locality` object. If names are provisioned for that `Road` and `Locality` object, then the `Address` compound name may be created by retrieving their names and then placing them into a template like this:
 

@@ -2,7 +2,7 @@
 
 === Abstract
 
-A Semantic Web data model for complex labels may be assigned to geospatial features.
+A Semantic Web data model for compound names may be assigned to resources.
 
 === Namespaces
 
