@@ -7,6 +7,7 @@ This model is composed of Web Ontology Language (OWL) <<OWL>> Classes and Proper
 === Classes
 
 * <<CompoundName>>
+* <<ISAPronunciation>>
 * <<Resource>>
 * <<Literal>>
 * <<Concept>>
@@ -89,6 +90,38 @@ ex:moreton
     ] ;
 .
 ----
+|===
+
+[[Geocode]]
+==== Geocode
+
+[cols="2,6"]
+|===
+| Property | Value
+
+| IRI | `:Geocode`
+| Preferred Label | Geocode
+| Subclass of | `geo:Geometry`
+| Definition | A location with a role
+| Is Defined By | This model
+| Scope Note | Used to give additional location information for a name, beyond the spatial information associated with the object it is a name for
+|===
+
+[[ISAPronunciation]]
+==== ISA Pronunciation
+
+[cols="2,6"]
+|===
+| Property | Value
+
+| IRI | `:ISAPronunciation`
+| Preferred Label | ISA Pronunciation
+| Definition | A textual datatype that uses ISA Pronunciation syntax
+| Is Defined By | This model
+| Sub-class Of | https://w3c.github.io/rdf-concepts/spec/#section-Datatypes[`rdfs:Datatype`]
+| History Note | Create in this model
+| Scope note | Use this to indicate that the object of the predicate `:hasPronunciation` uses ISA Pronunciation syntax
+| Example | See example for <<hasPronunciation>>
 |===
 
 [[Resource]]
@@ -196,6 +229,21 @@ ex:feature-x
 ----
 |===
 
+[[hasGeocode]]
+==== hasGeocode
+
+[cols="2,6"]
+|===
+| Property | Value
+
+| IRI | `cn:hasGeocode`
+| Preferred Label | has geometry
+| Definition | Indicated a geocode for a name
+| Is Defined By | <<GEO>>
+| Domain | <<CompoundName>>
+| Range | <<Geocode>>
+|===
+
 [[name]]
 ==== name
 
@@ -253,4 +301,30 @@ ex:feature-x
 | Is Defined By | https://schema.org[schema.org]
 | Example | See the example for <<CompoundName>>
 | Scope Note | Use this property to indicate the specialised type of a part of a CompoundName
+|===
+
+[[hasPronunciation]]
+==== has pronunciation
+
+[cols="2,6"]
+|===
+| Property | Value
+
+| IRI | `:hasPronunciation`
+| Preferred Label | has pronunciation
+| Definition | Indicates a pronunciation guide for the subject's name
+| Is Defined By | This model
+| Domain | <<CompoundName>>
+| Range | <<ISAPronunciation>>
+| Scope Note | Used to link a name to a pronunciation guide for it
+| Example
+a| [source,turtle]
+----
+# Shorncliffe, pronounced [ʃɔrnklɪf]
+ex:geographical-name-x
+  a :GeographicalName ;
+  rdf:value "Shorncliffe"@en ;
+  :hasPronunciation "[ʃɔrnklɪf]"^^:IPAPronunciation ;
+.
+----
 |===
