@@ -7,7 +7,7 @@
 |**Definition** | A Semantic Web data model for compound names that may be assigned to resources.
 | **Date Created** | 2023-04-26
 | **Date Modified** | 2025-11-10
-| **Date Issued** | 2023-04-26
+| **Date Issued** | 2025-11-11
 |**Creator** | https://orcid.org/0000-0002-8742-7730[Nicholas J. Car]
 |**Publisher** | https://linked.data.gov.au/org/agldwg[Australian Government Linked Data Working Group]
 |**Provenance** | This model was made for Queensland Spatial Information, a unit of the Queensland Department of Resources, to assist with their future address and roads database design however, recognising the generic nature of this modelling, it was presented to the AGLDWG to be supplied as a "background model" for general use.
